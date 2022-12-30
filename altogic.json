@@ -1,0 +1,7 @@
+{
+  "appId": "63a1ab31953cba15cdbc7a08",
+  "functionId": "63a1c1c9c7029dfef7c4561d",
+  "name": "getExchangeRates",
+  "runtime": "node.js-14.5",
+  "entrypoint": "src/index.js"
+}
