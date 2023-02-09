@@ -91,8 +91,5 @@ module.exports = async function (req, res) {
 
   altogic.endpoint.put("/currently", exchangeRates);
 
-  altogic.realtime.send("rates", "update", exchangeRates);
-  altogic.realtime.close();
-
   res.json(true);
 };
